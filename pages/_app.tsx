@@ -1,5 +1,4 @@
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
-}
+import withTwindApp from "@twind/next/app";
+import twindConfig from "../twind.config";
 
-export default MyApp;
+export default withTwindApp(twindConfig);
